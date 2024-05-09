@@ -11,7 +11,7 @@ This is a python program for detecting whether a given file is
 a probable malware or not! It uses [Random Forest Algorithm](https://en.wikipedia.org/wiki/Random_forest) for 
 classification.""")
 st.markdown("##### Dataset used: [Kaggle](https://www.kaggle.com/competitions/malware-detection/data)")
-st.subheader("Try yourself:-")
+st.subheader("thise program is made to detect ransoware malwares exe file ")
 
 file = st.file_uploader("Upload a file to check for malwares:", accept_multiple_files=True)
 if len(file):
